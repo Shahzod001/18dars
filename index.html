@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main-min.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-start">
+                    <h1 class="hero-title">Let's get you set up</h1>
+                    <p class="hero-text">It should only take a couple of <br> minutes <br> to pair with your watch</p>
+                    <a href="#" class="hero-link"></a>
+                </div>
+                <form action="https://echo.htmlacademy.ru/courses" class="hero-form" autocomplete="off">
+                    <div class="form-field name-field">
+                        <label class="field-title" for="user_name">Name</label>
+                        <input class="form-input" id="user_name" type="text" name="user_name" placeholder="Kendell Jenner">
+                    </div>
+                    <div class="form-field gender-field">
+                        <label class="field-title">Gender</label>
+                        <div class="form-field-wrapper">
+                            <label class="form-wrapper">
+                                <input class="form-input visually-hidden" type="radio" name="user_gender" value="Male" required>
+                                <span class="form-span-img gender-img male-img"></span>
+                                <span class="form-span">Male</span>
+                            </label>
+                            <label class="form-wrapper form-center-wrapper">
+                                <input class="form-input visually-hidden" type="radio" name="user_gender" value="Female" required>
+                                <span class="form-span-img gender-img female-img"></span>
+                                <span class="form-span">Female</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-field birth-field">
+                        <label class="field-title"  for="user_birthdate">Date of <br> Birth</label>
+                        <input class="form-input" id="user_birthdate" type="date" name="user_birthdate" placeholder="01/02/1983" aria-label="Choose your birthdate" required>
+                    </div>
+                    <div class="form-field email-field">
+                        <label class="field-title"  for="user_email">Email</label>
+                        <input class="form-input" id="user_email" type="email" name="user_email" aria-label="Choose your email" placeholder="kendall@emailcom" required>
+                    </div>
+                    <div class="form-field birth-field">
+                        <label class="field-title"  for="user_phone_number">Mobile</label>
+                        <input class="form-input" id="user_phone_number" type="tel" name="user_phone_number" aria-label="Choose your phone number" placeholder="+91 98765 43210" required>
+                    </div>
+                    <div class="form-field id-field">
+                        <label class="field-title"  for="user_id">Customer ID</label>
+                        <input class="form-input" id="user_id" type="text" name="user_id" aria-label="Choose your customer id" placeholder="576802-ERD0348 45">
+                    </div>
+                    <div class="form-field membership-field">
+                        <label class="field-title">Membership</label>
+                        <div class="form-field-wrapper">
+                            <label class="form-wrapper">
+                                <input class="form-input visually-hidden" type="radio" name="user_membership" value="Classic">
+                                <span class="form-span-img membership-img"></span>
+                                <span class="form-span">Classic</span>
+                            </label>
+                            <label class="form-wrapper form-center-wrapper">
+                                <input class="form-input visually-hidden" type="radio" name="user_membership" value="Silver">
+                                <span class="form-span-img membership-img"></span>
+                                <span class="form-span">Silver</span>
+                            </label>
+                            <label class="form-wrapper">
+                                <input class="form-input visually-hidden" type="radio" name="user_membership" value="Gold">
+                                <span class="form-span-img membership-img"></span>
+                                <span class="form-span">Gold</span>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- form buttons -->
+                    <div class="btn-container">
+                        <button class="btn reset-btn" type="reset">CANCEL</button>
+                        <button class="btn submit-btn" type="submit">SAVE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
